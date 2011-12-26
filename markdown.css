@@ -48,8 +48,10 @@ a {
 	padding: 0 3px 0 22px;
 	display: inline-block;
 	margin-left: 3px;
+    color:gray;
 }
 #todo a:link, #todo  a:visited {color: #737373;}
+a:link, a:visited {color: #737373;}
 
 
 background-image:url(
