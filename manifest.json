@@ -10,10 +10,11 @@
   "content_scripts": [
     {
       "matches": [
-        "http://*/*.md*"      , "file://*/*.md", 
-        "http://*/*.markdown*", "file://*/*.markdown",
-        "http://*/*.mdown*", 	"file://*/*.mdown",
-        "http://*/*.text"     , "file://*/*.text"
+        "http://*/*.md*"        , "https://*/*.md*"         , "file://*/*.md",
+        "http://*/*.mkd*"       , "https://*/*.mkd*"        , "file://*/*.mkd",
+        "http://*/*.markdown*"  , "https://*/*.markdown*"   , "file://*/*.markdown",
+        "http://*/*.mdown*"     , "https://*/*.mdown*"      , "file://*/*.mdown",
+        "http://*/*.text"       , "https://*/*.text"        , "file://*/*.text"
       ],
       "js": ["jquery.js", "showdown.js", "markdownify.js"]
     }
